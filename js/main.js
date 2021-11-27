@@ -9,4 +9,14 @@ $(document).ready(function(){
 
     // venubox about
     $('.venobox').venobox();
+
+    // testimonial slider slick
+
+    $('.testimonial-slider').slick({
+        dots: true,
+        arrows: false,
+        slidesToShow: 2,
+        slidesToScroll: 1,
+    });
+
 });
