@@ -648,7 +648,7 @@
         display: flex;
         position: absolute;
         left: 42%;
-        bottom: -80px;
+        bottom: -60px;
     }
 
 
@@ -665,9 +665,51 @@
     /* ==============================
             banner slick slider css ends
         =============================== */
-
-
-
         /* ===================
             testimonialcss ends
+        ===================== */
+
+    #membership{
+        padding: 75px 0;
+    }
+
+    #membership .membership-item{
+        margin-top: 25px;
+    }
+
+    #membership .membership-item .membership-heading {
+        background: var(--bg1);
+
+    }
+
+    #membership .membership-item .membership-heading h4{
+        line-height: 54px;
+    }
+    
+    #membership .membership-item .membership-price .membership-price-overlay{
+        background: var(--overl8);
+    }
+
+    #membership .membership-item .membership-features{
+        padding: 35px 0;
+    }
+
+    #membership .membership-item .membership-features ul li{
+        margin-bottom: 20px;
+    }
+
+    #membership .membership-item .membership-features ul li:last-child{
+        margin-bottom: 0;
+    }
+
+    #membership .membership-item .footer-heading{
+        background: var(--bg1);
+    }
+
+    #membership .membership-item .footer-heading h4 {
+        line-height: 34px;
+    }
+
+        /* ===================
+            membership ends
         ===================== */
