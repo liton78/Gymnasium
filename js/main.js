@@ -19,4 +19,19 @@ $(document).ready(function(){
         slidesToScroll: 1,
     });
 
+    // funfact counter
+    $('.counter').counterUp();
+
+     // branded slider slick
+
+    $('.brand-slider').slick({
+        arrows: true,
+        slidesToShow: 5,
+        slidesToScroll: 1,
+        centerMode: true,
+        centerPadding: '0px',
+        prevArrow: '<i class="fas fa-chevron-left left-arrow"></i>',
+        nextArrow: '<i class="fas fa-chevron-right right-arrow"></i>'
+    });
+
 });
