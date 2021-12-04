@@ -225,22 +225,24 @@
 
     #banner .bg1 .banner-text h3::before {
         content: '';
-        width: 160px;
+        width: 169px;
         height: 3px;
         background: var(--brand);
         position: absolute;
         top: 22px;
         left: -5px;
+        clip-path: polygon(0 0, 100% 0, 94% 100%, 0% 100%);
     }
 
     #banner .bg1 .banner-text h3::after {
         content: '';
-        width: 111px;
+        width: 118px;
         height: 3px;
         background: var(--brand);
         position: absolute;
         top: 22px;
         right: -5px;
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 9% 100%);
     }
 
     #banner .banner-item .banner-text h1 {
@@ -280,7 +282,7 @@
 
     #banner .bg1 .banner-text p::before{
         content: '';
-        width: 70px;
+        width: 72px;
         height: 3px;
         background: var(--brand);
         position: absolute;
