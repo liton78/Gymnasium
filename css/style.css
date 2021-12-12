@@ -372,6 +372,7 @@
             -moz-transform: translatex(-50%);
             -ms-transform: translatex(-50%);
             -o-transform: translatex(-50%);
+            padding-left: 0 !important;
 }
 
         /* ==============================

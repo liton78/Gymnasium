@@ -22,34 +22,32 @@ $(document).ready(function(){
         arrows: false,
         slidesToShow: 2,
         slidesToScroll: 1,
-
-        responsive:[
-            {
-                breakpoint: 992,
-                settings: {
-                    slidesToShow: 2,
-                    slidesToScroll: 1,
-                    infinite: true,
-                    dots: true
-                }
-            },
-        
-            {
-                breakpoint: 770,
-                settings: {
-                    slidesToShow: 1,
-                    slidesToScroll: 1
-                }
-            },
-            
-            {
-                breakpoint: 480,
-                settings: {
-                    slidesToShow: 1,
-                    slidesToScroll: 1
-                }
-            }
-        ],
+        responsive: [
+    {
+    breakpoint: 992,
+    settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+    }
+    },
+    {
+    breakpoint: 576,
+    settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+    }
+    },
+    {
+    breakpoint: 480,
+    settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+    }
+    }
+    // You can unslick at a given breakpoint now by adding:
+    // settings: "unslick"
+    // instead of a settings object
+]
     });
 
     // funfact counter
@@ -76,7 +74,7 @@ $(document).ready(function(){
             },
         
             {
-                breakpoint: 770,
+                breakpoint: 768,
                 settings: {
                     slidesToShow: 3,
                     autoplay:true
@@ -89,7 +87,8 @@ $(document).ready(function(){
                     slidesToShow: 2,
                     slidesToScroll: 2,
                     centerMode: false,
-                    autoplay:true
+                    autoplay:true,
+                    arrows: false,
                 }
             }
         ],
