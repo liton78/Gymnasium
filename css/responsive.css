@@ -187,16 +187,215 @@ responctve extra small device starts
     }
 
     /* footer css ends */
-
-
-
-    /*  css starts */
-    /*  css ends */
 }
-
 /* =================================
 responcive extra small device endss
 ================================= */
+
+/* ===========================
+responcive small device starts
+=========================== */
+@media (min-width:576px) and (max-width:767px){
+    /* navbar css starts */
+    .navbar .navbar-brand{
+        position: static !important;
+        padding: 0 20px !important;
+        transform: skewX(-30deg);
+        -webkit-transform: skewX(-30deg);
+        -moz-transform: skewX(-30deg);
+        -ms-transform: skewX(-30deg);
+        -o-transform: skewX(-30deg);
+}
+
+    .navbar .navbar-brand img{
+        transform: skewX(30deg);
+        -webkit-transform: skewX(30deg);
+        -moz-transform: skewX(30deg);
+        -ms-transform: skewX(30deg);
+        -o-transform: skewX(30deg);
+}
+
+    .navbar-light .navbar-toggler {
+        color: #ffffff;
+        border-color: #ffffff;
+    }
+
+    .navbar .navbar-nav{
+        background: rgba(226, 62, 56, 0.5);
+        text-align: center;
+    }
+
+    .navbar .navbar-nav .nav-item .nav-link{
+        z-index: 5;
+    }
+
+    .navbar .navbar-nav .nav-item .nav-link::before{
+    width: 0%;
+    height: 100%;
+    }
+
+    .navbar .navbar-nav .nav-item .nav-link.active::before{
+        width: 100%;
+    }
+
+    .navbar .navbar-nav .nav-item .nav-link:hover::before{
+    width: 100%;
+    height: 100%;
+    }
+    /* navbar css ends */
+
+    /* banner css starts */
+
+    #banner .bg1 .banner-text h3::before,
+    #banner .bg1 .banner-text h3::after,
+    #banner .bg1 .banner-text h1::before,
+    #banner .bg1 .banner-text h1::after,
+    #banner .bg1 .banner-text p::before,
+    #banner .bg1 .banner-text p::after {
+        display: none;
+    }
+
+    #banner .bg1 .banner-text p {
+        padding: 0;
+        text-align: left;
+    }
+
+    #banner .banner-text h3 {
+        font-size: 28px;
+    }
+
+    #banner .banner-text h1 {
+        font-size: 56px;
+    }
+
+    /* banner css ends */
+
+    /* about us css starts */
+
+    #about {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    #about .about-detail p {
+        padding: 0;
+    }
+
+    #about .about-image {
+        margin-top: 20px;
+    }
+
+    /* about us css ends */
+
+    /* gallery css starts */
+    #gallery {
+        margin-bottom: 60px;
+    }
+
+    /* gallery css ends */
+
+    /* our team css starts */
+
+    #ourteam {
+        margin-bottom: 60px;
+    }
+
+    #ourteam .teame-member {
+        margin-top: 40px;
+    }
+
+    /* our team css ends */
+
+    /* testimonial css starts */
+
+    .testimonial-bg .testimonial-slider .slick-dots {
+        left: 30%;
+        bottom: -60px;
+    }
+
+    /* testimonial css ends */
+
+    /* membership css starts */
+
+    #membership {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    #membership .membership-item .membership-features {
+        padding: 20px 0;
+    }
+
+    #membership .membership-price-overlay h5 {
+        font-size: 40px;
+    }
+
+    #membership .membership-item .membership-features ul li {
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    /* membership css ends */
+
+    /* funfact-count css starts */
+
+    #funfact-count {
+        margin-bottom: 60px;
+        padding-bottom: 26px;
+    }
+    /* funfact-count css ends */
+
+    /* class routines css starts */
+
+    #classroutine {
+        padding-bottom: 60px;
+    }
+
+    #classroutine .nav-tabs .nav-item {
+        width: 49.5%;
+        margin-bottom: 4px;
+    }
+
+    #classroutine .routines-tab ul li {
+        width: 49%;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        margin-right: 5px;
+        margin-bottom: 5px;
+}
+
+    /* class routines css ends */
+
+    /* brand css starts */
+
+    .brand-slider {
+        margin-bottom: 60px;
+
+    }
+
+    /* brand css ends */
+
+    /* brand css starts */
+
+    .brand-slider {
+        margin-bottom: 60px;
+
+    }
+
+    /* brand css ends */
+
+    /* footer css starts */
+
+    #footer-bg .footer-item {
+        margin-bottom: 20px;
+    }
+
+    /* footer css ends */
+
+}
+/* ===========================
+responcive small device endss
+=========================== */
 /* ===================
 responcive starts
 =================== */

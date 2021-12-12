@@ -44,9 +44,6 @@ $(document).ready(function(){
         slidesToScroll: 1
     }
     }
-    // You can unslick at a given breakpoint now by adding:
-    // settings: "unslick"
-    // instead of a settings object
 ]
     });
 
@@ -82,7 +79,7 @@ $(document).ready(function(){
             },
             
             {
-                breakpoint: 482,
+                breakpoint: 767,
                 settings: {
                     slidesToShow: 2,
                     slidesToScroll: 2,
@@ -95,9 +92,5 @@ $(document).ready(function(){
 
     });
 
-
-    $('.testimonial-2-slider').slick({
-        slidesToShow: 2,
-    });
 
 });
