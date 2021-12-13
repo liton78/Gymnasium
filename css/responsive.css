@@ -144,7 +144,6 @@ responctve extra small device starts
     
     #funfact-count {
         margin-bottom: 60px;
-        padding-bottom: 26px;
     }
 
     #funfact-count .funfact-item{
@@ -338,10 +337,8 @@ responcive small device starts
     /* membership css ends */
 
     /* funfact-count css starts */
-
     #funfact-count {
         margin-bottom: 60px;
-        padding-bottom: 26px;
     }
     /* funfact-count css ends */
 
@@ -371,29 +368,21 @@ responcive small device starts
     /* class routines css ends */
 
     /* brand css starts */
-
     .brand-slider {
         margin-bottom: 60px;
-
     }
-
     /* brand css ends */
 
     /* brand css starts */
-
     .brand-slider {
         margin-bottom: 60px;
-
     }
-
     /* brand css ends */
 
     /* footer css starts */
-
     #footer-bg .footer-item {
         margin-bottom: 20px;
     }
-
     /* footer css ends */
 
 }
@@ -459,39 +448,39 @@ responcive medium device starts
 /* banner css starts */
 
 #banner .bg1 .banner-text h3::before {
-    width: 183px;
+    width: 158px;
     top: 17px;
-    left: 64px;
+    left: 89px;
 }
 
 #banner .bg1 .banner-text h3::after {
-    width: 150px;
+    width: 125px;
     top: 17px;
-    right: 45px;
+    right: 70px;
 }
 
 #banner .bg1 .banner-text h1::before {
     height: 199px;
     top: -26px;
-    left: 64px;
+    left: 89px;
 }
 
 #banner .bg1 .banner-text h1::after {
     height: 199px;
     top: -26px;
-    right: 45px;
+    right: 70px;
 }
 
 #banner .bg1 .banner-text p::before {
-    width: 78px;
+    width: 53px;
     top: 83px;
-    left: 66px;
+    left: 91px;
 }
 
 #banner .bg1 .banner-text p::after {
-    width: 74px;
+    width: 49px;
     top: 83px;
-    right: 45px;
+    right: 70px;
 }
 
 #banner .bg1 .banner-text p {
@@ -534,11 +523,15 @@ responcive medium device starts
 
 /* class routines css ends */
 
-/* brand css starts */
+/* funfact-count css starts */
+#funfact-count {
+    margin-bottom: 60px;
+}
+/* funfact-count css ends */
 
+/* brand css starts */
 .brand-slider {
     margin-bottom: 60px;
-
 }
 
 .brand-slider .left-arrow {
@@ -554,11 +547,9 @@ responcive medium device starts
 /* brand css ends */
 
 /* footer css starts */
-
 #footer-bg .footer-item {
     margin-bottom: 20px;
 }
-
 /* footer css ends */
 
 
@@ -577,13 +568,13 @@ responcive large device starts
     /* banner css starts */
 
     #banner .bg1 .banner-text h3::before {
-        width: 176px;
+        width: 179px;
         top: 17px;
         left: -50px;
     }
 
     #banner .bg1 .banner-text h3::after {
-        width: 122px;
+        width: 125px;
         top: 17px;
         right: -50px;
     }
@@ -602,14 +593,14 @@ responcive large device starts
 
     #banner .bg1 .banner-text p::before {
         width: 74px;
-        top: 83px;
+        top: 80px;
         left: -50px;
     }
 
     #banner .bg1 .banner-text p::after {
         width: 45px;
-        top: 83px;
-        right: -47px;
+        top: 80px;
+        right: -50px;
     }
 
     #banner .bg1 .banner-text p {
@@ -690,39 +681,39 @@ responcive extra-large device starts
     /* banner css starts */
 
     #banner .bg1 .banner-text h3::before {
-        width: 222px;
+        width: 200px;
         top: 20px;
-        left: -50px;
+        left: -30px;
     }
 
     #banner .bg1 .banner-text h3::after {
-        width: 169px;
+        width: 149px;
         top: 20px;
-        right: -50px;
+        right: -30px;
     }
 
     #banner .bg1 .banner-text h1::before {
         height: 201px;
         top: -26px;
-        left: -50px;
+        left: -30px;
     }
 
     #banner .bg1 .banner-text h1::after {
         height: 201px;
         top: -26px;
-        right: -50px;
+        right: -30px;
     }
 
     #banner .bg1 .banner-text p::before {
-        width: 120px;
+        width: 100px;
         top: 83px;
-        left: -50px;
+        left: -30px;
     }
 
     #banner .bg1 .banner-text p::after {
-        width: 90px;
+        width: 70px;
         top: 83px;
-        right: -50px;
+        right: -30px;
     }
 
     #banner .bg1 .banner-text p {
@@ -754,43 +745,43 @@ responcive extra extra-large device starts
     /* banner css starts */
 
     #banner .bg1 .banner-text h3::before {
-        width: 265px;
+        width: 210px;
         top: 20px;
-        left: -50px;
+        left: 5px;
     }
 
     #banner .bg1 .banner-text h3::after {
-        width: 215px;
+        width: 160px;
         top: 20px;
-        right: -50px;
+        right: 5px;
     }
 
     #banner .bg1 .banner-text h1::before {
         height: 201px;
         top: -26px;
-        left: -50px;
+        left: 5px;
     }
 
     #banner .bg1 .banner-text h1::after {
         height: 201px;
         top: -26px;
-        right: -50px;
+        right: 5px;
     }
 
     #banner .bg1 .banner-text p::before {
-        width: 162px;
+        width: 108px;
         top: 83px;
-        left: -50px;
+        left: 5px;
     }
 
     #banner .bg1 .banner-text p::after {
-        width: 135px;
+        width: 80px;
         top: 83px;
-        right: -50px;
+        right: 5px;
     }
 
     #banner .bg1 .banner-text p {
-        padding: 0;
+        padding: 0 80px;
         text-align: center;
     }
 

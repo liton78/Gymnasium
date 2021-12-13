@@ -4,7 +4,7 @@ $(document).ready(function(){
     $('.banner-slider').slick({
         dots: true,
         arrows: false,
-        autoplay: false,
+        autoplay: true,
     });
 
     // venubox about
@@ -34,14 +34,14 @@ $(document).ready(function(){
     breakpoint: 576,
     settings: {
         slidesToShow: 1,
-        slidesToScroll: 1
+        slidesToScroll: 1,
     }
     },
     {
     breakpoint: 480,
     settings: {
         slidesToShow: 1,
-        slidesToScroll: 1
+        slidesToScroll: 1,
     }
     }
 ]
