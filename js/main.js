@@ -4,7 +4,7 @@ $(document).ready(function(){
     $('.banner-slider').slick({
         dots: true,
         arrows: false,
-        autoplay: true,
+        autoplay: false,
     });
 
     // venubox about
@@ -65,19 +65,11 @@ $(document).ready(function(){
             {
                 breakpoint: 992,
                 settings: {
-                    slidesToShow: 5,
+                    slidesToShow: 3,
                     infinite: true,
                 }
             },
-        
-            {
-                breakpoint: 768,
-                settings: {
-                    slidesToShow: 3,
-                    autoplay:true
-                }
-            },
-            
+
             {
                 breakpoint: 767,
                 settings: {

@@ -352,8 +352,12 @@ responcive small device starts
     }
 
     #classroutine .nav-tabs .nav-item {
-        width: 49.5%;
+        width: 49%;
         margin-bottom: 4px;
+    }
+
+    #classroutine .nav-tabs .monday{
+        margin-right: 5px;
     }
 
     #classroutine .routines-tab ul li {
@@ -396,6 +400,425 @@ responcive small device starts
 /* ===========================
 responcive small device endss
 =========================== */
+
+/* =============================
+responcive medium device starts
+============================= */
+
+@media (min-width: 768px) and (max-width: 991px){
+    /* navbar css starts */
+    .navbar .navbar-brand {
+        position: static !important;
+
+        padding: 0 30px !important;
+        transform: skewX(-35deg);
+        -webkit-transform: skewX(-35deg);
+        -moz-transform: skewX(-35deg);
+        -ms-transform: skewX(-35deg);
+        -o-transform: skewX(-35deg);
+}
+
+    .navbar .navbar-brand img {
+        transform: skewX(35deg);
+        -webkit-transform: skewX(35deg);
+        -moz-transform: skewX(35deg);
+        -ms-transform: skewX(35deg);
+        -o-transform: skewX(35deg);
+}
+
+    .navbar-light .navbar-toggler {
+        color: #ffffff;
+        border-color: #ffffff;
+    }
+
+    .navbar .navbar-nav {
+        background: rgba(226, 62, 56, 0.5);
+        text-align: center;
+    }
+
+    .navbar .navbar-nav .nav-item .nav-link {
+        z-index: 5;
+    }
+
+    .navbar .navbar-nav .nav-item .nav-link::before {
+        width: 0%;
+        height: 100%;
+    }
+
+    .navbar .navbar-nav .nav-item .nav-link.active::before {
+        width: 100%;
+    }
+
+    .navbar .navbar-nav .nav-item .nav-link:hover::before {
+        width: 100%;
+        height: 100%;
+    }
+
+    /* navbar css ends */
+
+/* banner css starts */
+
+#banner .bg1 .banner-text h3::before {
+    width: 183px;
+    top: 17px;
+    left: 64px;
+}
+
+#banner .bg1 .banner-text h3::after {
+    width: 150px;
+    top: 17px;
+    right: 45px;
+}
+
+#banner .bg1 .banner-text h1::before {
+    height: 199px;
+    top: -26px;
+    left: 64px;
+}
+
+#banner .bg1 .banner-text h1::after {
+    height: 199px;
+    top: -26px;
+    right: 45px;
+}
+
+#banner .bg1 .banner-text p::before {
+    width: 78px;
+    top: 83px;
+    left: 66px;
+}
+
+#banner .bg1 .banner-text p::after {
+    width: 74px;
+    top: 83px;
+    right: 45px;
+}
+
+#banner .bg1 .banner-text p {
+    padding: 0 99px;
+    text-align: center;
+}
+
+#banner .banner-text h3 {
+    font-size: 28px;
+}
+
+#banner .banner-text h1 {
+    font-size: 56px;
+}
+
+/* banner css ends */
+
+/* class routines css starts */
+
+#classroutine {
+    padding-bottom: 60px;
+}
+
+#classroutine .nav-tabs .nav-item {
+    width: 32.5%;
+    margin-bottom: 5px;
+}
+
+#classroutine .nav-tabs .monday {
+    margin-right: 5px;
+}
+
+#classroutine .routines-tab ul li {
+    width: 49%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+/* class routines css ends */
+
+/* brand css starts */
+
+.brand-slider {
+    margin-bottom: 60px;
+
+}
+
+.brand-slider .left-arrow {
+    left: -10px;
+
+}
+
+.brand-slider .right-arrow {
+    right: -10px;
+
+}
+
+/* brand css ends */
+
+/* footer css starts */
+
+#footer-bg .footer-item {
+    margin-bottom: 20px;
+}
+
+/* footer css ends */
+
+
+}
+
+/* =============================
+responcive medium device endss
+============================= */
+
+/* ============================
+responcive large device starts
+============================ */
+
+@media(min-width: 992px) and (max-width:1199px){
+    
+    /* banner css starts */
+
+    #banner .bg1 .banner-text h3::before {
+        width: 176px;
+        top: 17px;
+        left: -50px;
+    }
+
+    #banner .bg1 .banner-text h3::after {
+        width: 122px;
+        top: 17px;
+        right: -50px;
+    }
+
+    #banner .bg1 .banner-text h1::before {
+        height: 199px;
+        top: -26px;
+        left: -50px;
+    }
+
+    #banner .bg1 .banner-text h1::after {
+        height: 199px;
+        top: -26px;
+        right: -50px;
+    }
+
+    #banner .bg1 .banner-text p::before {
+        width: 74px;
+        top: 83px;
+        left: -50px;
+    }
+
+    #banner .bg1 .banner-text p::after {
+        width: 45px;
+        top: 83px;
+        right: -47px;
+    }
+
+    #banner .bg1 .banner-text p {
+        padding: 0;
+        text-align: center;
+    }
+
+    #banner .banner-text h3 {
+        font-size: 30px;
+    }
+
+    #banner .banner-text h1 {
+        font-size: 60px;
+    }
+
+    /* banner css ends */
+
+    /* class routines css starts */
+
+    #classroutine {
+        padding-bottom: 60px;
+    }
+
+    #classroutine .nav-tabs .nav-item {
+        width: 32.5%;
+        margin-bottom: 5px;
+    }
+
+    #classroutine .nav-tabs .monday {
+        margin-right: 5px;
+    }
+
+    #classroutine .routines-tab ul li {
+        width: 18.9%;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        margin-right: 9px;
+        margin-bottom: 9px;
+    }
+
+    /* class routines css ends */
+
+    /* brand css starts */
+
+    .brand-slider .left-arrow {
+        left: -10px;
+
+    }
+
+    .brand-slider .right-arrow {
+        right: -10px;
+
+    }
+
+    /* brand css ends */
+
+    /* footer css starts */
+
+    #footer-bg .footer-body .footer-item .opening-hours li span {
+        min-width: 90px;
+    }
+
+    /* footer css ends */
+
+
+
+}
+/* ============================
+responcive large device endss
+============================ */
+
+/* =================================
+responcive extra-large device starts
+================================= */
+
+@media(min-width: 1200px) and (max-width: 1399px){
+
+    /* banner css starts */
+
+    #banner .bg1 .banner-text h3::before {
+        width: 222px;
+        top: 20px;
+        left: -50px;
+    }
+
+    #banner .bg1 .banner-text h3::after {
+        width: 169px;
+        top: 20px;
+        right: -50px;
+    }
+
+    #banner .bg1 .banner-text h1::before {
+        height: 201px;
+        top: -26px;
+        left: -50px;
+    }
+
+    #banner .bg1 .banner-text h1::after {
+        height: 201px;
+        top: -26px;
+        right: -50px;
+    }
+
+    #banner .bg1 .banner-text p::before {
+        width: 120px;
+        top: 83px;
+        left: -50px;
+    }
+
+    #banner .bg1 .banner-text p::after {
+        width: 90px;
+        top: 83px;
+        right: -50px;
+    }
+
+    #banner .bg1 .banner-text p {
+        padding: 0;
+        text-align: center;
+    }
+
+    #banner .banner-text h3 {
+        font-size: 30px;
+    }
+
+    #banner .banner-text h1 {
+        font-size: 60px;
+    }
+
+    /* banner css ends */
+
+}
+
+/* =================================
+responcive extra-large device endss
+================================= */
+
+/* ========================================
+responcive extra extra-large device starts
+======================================== */
+
+@media(min-width: 1400px){
+    /* banner css starts */
+
+    #banner .bg1 .banner-text h3::before {
+        width: 265px;
+        top: 20px;
+        left: -50px;
+    }
+
+    #banner .bg1 .banner-text h3::after {
+        width: 215px;
+        top: 20px;
+        right: -50px;
+    }
+
+    #banner .bg1 .banner-text h1::before {
+        height: 201px;
+        top: -26px;
+        left: -50px;
+    }
+
+    #banner .bg1 .banner-text h1::after {
+        height: 201px;
+        top: -26px;
+        right: -50px;
+    }
+
+    #banner .bg1 .banner-text p::before {
+        width: 162px;
+        top: 83px;
+        left: -50px;
+    }
+
+    #banner .bg1 .banner-text p::after {
+        width: 135px;
+        top: 83px;
+        right: -50px;
+    }
+
+    #banner .bg1 .banner-text p {
+        padding: 0;
+        text-align: center;
+    }
+
+    #banner .banner-text h3 {
+        font-size: 30px;
+    }
+
+    #banner .banner-text h1 {
+        font-size: 60px;
+    }
+
+    /* banner css ends */
+}
+
+/* ========================================
+responcive extra extra-large device endss
+======================================== */
+
+
+
+
+
+
+
+
+
+
+
 /* ===================
 responcive starts
 =================== */
