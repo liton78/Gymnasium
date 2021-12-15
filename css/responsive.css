@@ -1,7 +1,8 @@
+
 /* =================================
 responctve extra small device starts
 ================================== */
-@media(max-width: 575px){
+@media(min-width: 100px) and (max-width: 575px){
     /* navbar css starts */
     .navbar .navbar-brand{
         position: static !important;
@@ -160,16 +161,16 @@ responctve extra small device starts
     }
 
     #classroutine .nav-tabs .nav-item{
-        width: 32.3%;
+        width: 32.1%;
         margin-bottom: 4px;
     }
 
     #classroutine .nav-tabs .monday {
-        margin-right: 5px;
+        margin-right: 4px;
     }
 
     #classroutine .routines-tab ul li{
-        width: 48.9%;
+        width: 48.3%;
     }
 
     /* class routines css ends */
