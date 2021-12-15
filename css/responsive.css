@@ -169,7 +169,7 @@ responctve extra small device starts
     }
 
     #classroutine .routines-tab ul li{
-        width: 49%;
+        width: 48.9%;
     }
 
     /* class routines css ends */
@@ -198,6 +198,22 @@ responctve extra small device starts
         position: absolute;
         top: -10px;
         left: 0;
+    }
+
+    #footer-bg .social-bl{
+        position: relative;
+    
+    }
+
+    #footer-bg .social-bl::before{
+        content: '';
+        width: 100%;
+        height: 1px;
+        background: #fff;
+        position: absolute;
+        bottom: -30px;
+        left: 0;
+    
     }
 
     /* footer css ends */
@@ -408,6 +424,22 @@ responcive small device starts
         position: absolute;
         top: -10px;
         left: 0;
+    }
+
+    #footer-bg .social-bl {
+        position: relative;
+
+    }
+
+    #footer-bg .social-bl::before {
+        content: '';
+        width: 100%;
+        height: 1px;
+        background: #fff;
+        position: absolute;
+        bottom: -30px;
+        left: 0;
+
     }
 
 
