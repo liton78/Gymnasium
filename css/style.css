@@ -1131,12 +1131,12 @@
         width: 40px;
         height: 40px;
         cursor: pointer;
-        border-radius: 50%;
-        -webkit-border-radius: 50%;
-        -moz-border-radius: 50%;
-        -ms-border-radius: 50%;
-        -o-border-radius: 50%;
-    }
+        border-radius: 15px 0px;
+        -webkit-border-radius: 15px 0px;
+        -moz-border-radius: 15px 0px;
+        -ms-border-radius: 15px 0px;
+        -o-border-radius: 15px 0px;
+}
 
     .color-picker ul li.difauld{
         background: var(--brand);
@@ -1288,3 +1288,89 @@
     /* ===============================
         color switcher option css ends
     =============================== */
+
+    /* ==========================
+            color switcher css starts
+        ========================== */
+
+    .offcanvas{
+        background: #353535 !important;
+    }
+
+
+
+    .Offcanvas-switch {
+        width: 250px;
+        height: 60px;
+        background: var(--bg1);
+        position: fixed;
+        top: 260px;
+        right: -250px;
+        z-index: 9999;
+        border-radius: 30px;
+        -webkit-border-radius: 30px;
+        -moz-border-radius: 30px;
+        -ms-border-radius: 30px;
+        -o-border-radius: 30px;
+        transition: all linear .5s;
+        -webkit-transition: all linear .5s;
+        -moz-transition: all linear .5s;
+        -ms-transition: all linear .5s;
+        -o-transition: all linear .5s;
+    }
+
+    .color-pos {
+        right: 0;
+    }
+
+    .Offcanvas-switch .Offcanvas-switch-btn {
+        width: 40px;
+        height: 40px;
+        background: var(--brand);
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+        text-align: center;
+        position: absolute;
+        left: -40px;
+        top: 10px;
+    }
+
+    .Offcanvas-switch .Offcanvas-switch-btn i {
+        font-size: 25px;
+        line-height: 40px;
+        cursor: pointer;
+    }
+
+    .offcanvas .offcanvas-body ul li {
+        width: 40px;
+        height: 40px;
+        cursor: pointer;
+        border-radius: 15px 0px;
+        -webkit-border-radius: 15px 0px;
+        -moz-border-radius: 15px 0px;
+        -ms-border-radius: 15px 0px;
+        -o-border-radius: 15px 0px;
+    }
+
+    .offcanvas .offcanvas-body ul li.difauld {
+        background: var(--brand);
+    }
+
+    .offcanvas .offcanvas-body ul li.orange {
+        background: #F79F1F;
+    }
+
+    .offcanvas .offcanvas-body ul li.green {
+        background: #009432;
+    }
+
+    .offcanvas .offcanvas-body ul li.blue {
+        background: #0652dd;
+    }
+
+    /* ==========================
+            Offcanvasswitcher css ends
+        ========================== */

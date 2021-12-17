@@ -18,7 +18,13 @@ $(document).ready(function(){
     });
 
     $('.color-picker ul .difauld').on('click',function(){
-        $('body').addClass('difauld').removeClass('orange').removeClass('green').removeClass('blue');
+        $('body').removeClass('orange').removeClass('green').removeClass('blue');
+    });
+
+
+    // Offcanvas-switch 
+    $('.Offcanvas-switch .Offcanvas-switch-btn').on('click',function(){
+        // $('.Offcanvas-switch').toggleClass('color-pos');
     });
 
     // for banner
