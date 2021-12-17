@@ -572,7 +572,7 @@
                     </div>
                     <div class="routines-tab">
                         <div class="tab-content" id="myTabContent">
-                            <div class="tab-pane fade show active" id="Monday" role="tabpanel" aria-labelledby="Monday-tab">
+                            <div class="tab-pane fade show active" id="Monday" role="tabpanel" aria-labelledby="monday-tab">
                                 <ul class="ps-0 mb-0">
                                     <li class="text-center">
                                         <p class="mb-0 text-capitalize open-reg fs16"> yoga</p>
@@ -600,7 +600,7 @@
 
                                     <li class="text-center">
                                         <p class="mb-0 text-capitalize open-reg fs16">back relief</p>
-                                        <img src="images/back relief.png" alt="back relief">
+                                        <img src="images/backrelief.png" alt="backrelief">
                                         <p class="mb-0 open-reg fs14 coldk">05:00 p.m - 07:00 p.m.</p>
                                     </li>
 
@@ -664,7 +664,7 @@
 
                                     <li class="text-center">
                                         <p class="mb-0 text-capitalize open-reg fs16">back relief</p>
-                                        <img src="images/back relief.png" alt="back relief">
+                                        <img src="images/backrelief.png" alt="backrelief">
                                         <p class="mb-0 open-reg fs14 coldk">05:00 p.m - 07:00 p.m.</p>
                                     </li>
 
@@ -731,7 +731,7 @@
 
                                     <li class="text-center active">
                                         <p class="mb-0 text-capitalize open-reg fs16">back relief</p>
-                                        <img src="images/back relief.png" alt="back relief">
+                                        <img src="images/backrelief.png" alt="backrelief">
                                         <p class="mb-0 open-reg fs14">05:00 p.m - 07:00 p.m.</p>
                                     </li>
 
@@ -798,7 +798,7 @@
 
                                     <li class="text-center">
                                         <p class="mb-0 text-capitalize open-reg fs16">back relief</p>
-                                        <img src="images/back relief.png" alt="back relief">
+                                        <img src="images/backrelief.png" alt="backrelief">
                                         <p class="mb-0 open-reg fs14 coldk">05:00 p.m - 07:00 p.m.</p>
                                     </li>
 
@@ -838,7 +838,7 @@
                                 <ul class="ps-0 mb-0">
                                     <li class="text-center active">
                                         <p class="mb-0 text-capitalize open-reg fs16"> yoga</p>
-                                        <img src="images/youga.png" alt="yoga">
+                                        <img src="images/youga.png" alt="youga">
                                         <p class="mb-0 open-reg fs14">09:00 a.m - 11:00 a.m.</p>
                                     </li>
                                     
@@ -862,7 +862,7 @@
 
                                     <li class="text-center active">
                                         <p class="mb-0 text-capitalize open-reg fs16">back relief</p>
-                                        <img src="images/back relief.png" alt="back relief">
+                                        <img src="images/backrelief.png" alt="backrelief">
                                         <p class="mb-0 open-reg fs14">05:00 p.m - 07:00 p.m.</p>
                                     </li>
 
@@ -926,7 +926,7 @@
 
                                     <li class="text-center active">
                                         <p class="mb-0 text-capitalize open-reg fs16">back relief</p>
-                                        <img src="images/back relief.png" alt="back relief">
+                                        <img src="images/backrelief.png" alt="backrelief">
                                         <p class="mb-0 open-reg fs14">05:00 p.m - 07:00 p.m.</p>
                                     </li>
 
@@ -1183,9 +1183,9 @@
 
     <!-- Offcanvas switcher starts -->
     <div class="Offcanvas-switch">
-        <div class="Offcanvas-switch-btn" data-bs-toggle="offcanvas" href="#offcanvasExample" aria-controls="offcanvasExample">
+        <a class="Offcanvas-switch-btn" data-bs-toggle="offcanvas" href="#offcanvasScrolling">
             <i class="fas fa-cog fa-spin text-white"></i>
-        </div>
+        </a>
         <!-- <ul class="mb-0 ps-0 d-flex justify-content-evenly align-items-center h-100">
             <li class="difauld"></li>
             <li class="orange"></li>
@@ -1193,13 +1193,16 @@
             <li class="blue"></li>
         </ul> -->
     </div>
-    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+    <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasScrolling">
         <div class="offcanvas-header">
             <!-- <h5 class="offcanvas-title" id="offcanvasExampleLabel"></h5> -->
-            <a href="index.html"><img src="images/footer-logo.png" alt=""></a>
-            <button type="button" class="bg-info text-reset" data-bs-dismiss="offcanvas" aria-label="Close">
+            <a href="index.html"><img src="images/footer-logo.png" alt="footer-logo"></a>
+            <div class="close-btn" data-bs-dismiss="offcanvas">
+                <i class="far fa-window-close text-white fs40"></i>
+            </div>
+            <!-- <button type="button" class="bg-info" data-bs-dismiss="offcanvas" aria-label="Close">
                 <i class="far fa-window-close text-white"></i>
-            </button>
+            </button> -->
         </div>
         <div class="offcanvas-body">
             <ul class="mb-0 ps-0 d-flex justify-content-evenly">
