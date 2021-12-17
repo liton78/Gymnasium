@@ -704,6 +704,10 @@
         padding: 35px 0;
     }
 
+    #membership .membership-item .membership-features ul {
+        padding-left: 0 !important;
+    }
+
     #membership .membership-item .membership-features ul li{
         margin-bottom: 20px;
     }
